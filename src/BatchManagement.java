@@ -10,6 +10,7 @@ public class BatchManagement {
     }
 
     public void display(Batch[] batch){
-
+        for(int i = 0; i < batch.length; i++)
+        System.out.println("Output" + batch[i].getBatchDate() + batch[i].getBatchName());
     }
 }

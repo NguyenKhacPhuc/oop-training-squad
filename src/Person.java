@@ -6,8 +6,6 @@ public class Person {
     private String birthDate;
     private String email;
 
-    public Person() {
-    }
 
     public Person(int id, String candidateName, String gender, String birthDate, String email) {
         this.id = id;
