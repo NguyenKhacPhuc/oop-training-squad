@@ -5,7 +5,7 @@ public class Batch {
 	private String batchDate;
 
 	private Interviewer interviewer;
-	private Candidate candidates;
+	private Candidate[] candidates;
 	
 	public Batch() {
 		

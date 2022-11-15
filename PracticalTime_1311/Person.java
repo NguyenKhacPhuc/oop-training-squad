@@ -6,6 +6,7 @@ public class Person {
 	private String gender;
 	private String birthDate;
 	private String email;
+	private int a;
 
 	public Person(int id, String candidateName, String gender, String birthDate, String email) {
 		this.id = id;
