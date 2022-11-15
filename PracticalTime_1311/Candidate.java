@@ -4,7 +4,7 @@ public class Candidate extends Person {
 	private double gpa;
 
 	public Candidate(int id, String candidateName, String gender, String birthDate, String email, double gpa) {
-		super(id, candidateName, gender, birthDate, email);
+		super(id,candidateName, gender, birthDate, email);
 		this.gpa = gpa;
 	}
 
